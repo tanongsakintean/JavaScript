@@ -16,9 +16,9 @@ const isValidIP = (ip) => {
   console.log(status == 0);
 };
 
-isValidIP("1.2.3.4");
-isValidIP("1.2.3");
-isValidIP("1.2.3.4.5");
-isValidIP("123.45.67.89");
-isValidIP("123.456.78.90");
-isValidIP("123.045.067.089");
+isValidIP("1.2.3.4"); //=> true
+isValidIP("1.2.3"); //=> false
+isValidIP("1.2.3.4.5"); //=> false
+isValidIP("123.45.67.89"); //=> true
+isValidIP("123.456.78.90"); //=> false
+isValidIP("123.045.067.089"); //=> false

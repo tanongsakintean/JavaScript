@@ -10,6 +10,6 @@ const digitalClock = (second) => {
   console.log(` ${Math.floor(hour)}:${Math.floor(minus)}:${sec}`);
 };
 
-digitalClock(5025);
-digitalClock(61201);
-digitalClock(87000);
+digitalClock(5025); //=>1:23:45
+digitalClock(61201); //=>17:0:1
+digitalClock(87000); //=> 0:10:0

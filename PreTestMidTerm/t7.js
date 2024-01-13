@@ -14,5 +14,5 @@ const sumTwoSmallestNums = (num) => {
   console.log(sum);
 };
 
-sumTwoSmallestNums([12, 5, 42, 2, 77, -44]);
-// sumTwoSmallestNums([10, 343445353, 1,  -44]);
+sumTwoSmallestNums([12, 5, 42, 2, 77, -44]); // => [ -44, 2, 5, 12, 42, 77 ]
+sumTwoSmallestNums([10, 343445353, 1, -44]); // => [ -44, 1, 10, 343445353 ]

@@ -16,6 +16,6 @@ const removeDups = (str) => {
   console.log(newStr);
 };
 
-removeDups([1, 0, 1, 0]);
-removeDups(["Joth", "Beer", "Joth"]);
-removeDups(["1", "Beer", "Joth", "Beer", "1"]);
+removeDups([1, 0, 1, 0]); // => [ 1, 0 ]
+removeDups(["Joth", "Beer", "Joth"]); //=> [ 'Joth', 'Beer' ]
+removeDups(["1", "Beer", "Joth", "Beer", "1"]); // => [ '1', 'Beer', 'Joth' ]

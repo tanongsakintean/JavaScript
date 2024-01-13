@@ -6,6 +6,6 @@ const hightestDigit = (num) => {
   console.log(Array.from(String(num)).sort().pop());
 };
 
-hightestDigit(379);
-hightestDigit(2);
-hightestDigit(377401);
+hightestDigit(379); // => 9
+hightestDigit(2); // => 2
+hightestDigit(377401); // => 7

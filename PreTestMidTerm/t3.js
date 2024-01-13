@@ -14,6 +14,6 @@ const capToFront = (str) => {
   console.log(Array.from(str).sort().join(""));
 };
 
-capToFront("hApPy");
-capToFront("moveMENT");
-capToFront("shOrtCAKE");
+capToFront("hApPy"); // => APhpy
+capToFront("moveMENT"); // => EMNTemov
+capToFront("shOrtCAKE"); // => ACEKOhrst

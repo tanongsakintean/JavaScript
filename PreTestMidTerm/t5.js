@@ -25,7 +25,7 @@ getBudgets([
     age: 16,
     budget: 2700,
   },
-]);
+]); //=>65700
 
 getBudgets([
   {
@@ -43,4 +43,4 @@ getBudgets([
     age: 16,
     budget: 1600,
   },
-]);
+]); // =>62600
